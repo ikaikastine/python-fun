@@ -20,7 +20,7 @@ def play():
 			for action in available_actions:
 				if action_input == action.hotkey:
 					player.do_action(action, **action.kwargs)
-					breka
+					break
 
 if __name__ == "__main__":
 	play()
