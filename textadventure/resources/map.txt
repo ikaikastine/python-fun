@@ -1,8 +1,8 @@
-						LeaveCaveRoom	
-GiantSpiderRoom		EmptyCavePath		OgreRoom	
-				EmptyCavePath		
-				EmptyCavePath		
-GiantSpiderRoom		EmptyCavePath		StartingRoom		EmptyCavePath	FindDaggerRoom
-				EmptyCavePath		
-				EmptyCavePath		
-				FindSwordRoom		
+				LeaveCaveRoom
+GiantSpiderRoom		EmptyCavePath	OgreRoom	EmptyCavePath	
+		EmptyCavePath		
+		EmptyCavePath
+GiantSpiderRoom		EmptyCavePath	StartingRoom	EmptyCavePath	FindDaggerRoom
+		EmptyCavePath
+		EmptyCavePath
+		FindSwordRoom		
