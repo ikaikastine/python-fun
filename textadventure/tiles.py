@@ -38,6 +38,12 @@ class StartingRoom(MapTile):
 		#Room has no action on player
 		pass
 
+class LeaveCaveRoom(MapTile):
+	def intro_text(self):
+		return """You see a bright light in the distance... it grows as you get closer! It's sunlight!		Victory is yours!"""
+	def modify_player(self, player):
+		player.victory = True
+
 class LootRoom(MapTile):
 	def __init__(self, x, y, item):
 		self.item = item
@@ -114,9 +120,3 @@ class FindSwordRoom(LootRoom):
 
 	def intro_text(self):
 		return """An iron hilt layes wedged between some rocks. You grab the hilt and pull a large iron sword out of the rocks."""
-
-class LeaveCaveRoom(MapTile):
-	def intro_text(self):
-		return """You see a bright light in the distance... it grows as you get closer! It's sunlight!		Victory is yours!"""
-	def modify_player(self, player):
-		player.victory = True
